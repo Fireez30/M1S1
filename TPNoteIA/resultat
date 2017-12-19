@@ -1,0 +1,100 @@
+Specialite : IMAGINA
+Encadrant TP : M.-L. Mugnier
+Camarade : Kurt Savio
+
+
+Problème csp1.txt
+searchSol :
+7 noeuds ont été explorés
+{x1=1, x2=2, x3=7, x4=8, x5=1}
+searchAllSol :
+Nb solutions : 5
+[{x1=3, x2=4, x3=2, x4=3, x5=7}, {x1=5, x2=1, x3=6, x4=1, x5=5}, {x1=8, x2=4, x3=2, x4=3, x5=7}, {x1=8, x2=7, x3=8, x4=5, x5=6}, {x1=8, x2=7, x3=8, x4=5, x5=8}]
+
+
+Problème csp2.txt
+searchSol :
+11 noeuds ont été explorés
+{x8=4, x0=0, x1=0, x2=0, x3=2, x4=0, x5=1, x6=2, x7=4}
+searchAllSol :
+Nb solutions : 6
+[{x8=4, x0=1, x1=0, x2=0, x3=2, x4=0, x5=0, x6=1, x7=4}, {x8=4, x0=1, x1=0, x2=0, x3=2, x4=0, x5=0, x6=1, x7=5}, {x8=4, x0=1, x1=0, x2=0, x3=2, x4=1, x5=1, x6=1, x7=4}, {x8=4, x0=1, x1=0, x2=0, x3=2, x4=1, x5=1, x6=1, x7=5}, {x8=4, x0=1, x1=0, x2=0, x3=2, x4=2, x5=2, x6=1, x7=4}, {x8=4, x0=1, x1=0, x2=0, x3=2, x4=2, x5=2, x6=1, x7=5}]
+
+Problème 5reines.txt
+searchSol :
+7 noeuds ont été explorés
+{rl1=c1, rl3=c2, rl2=c4, rl5=c3, rl4=c5}
+searchAllSol :
+Nb solutions : 10
+[{rl3=c2, rl2=c4, rl5=c3, rl4=c5, rl1=c1}, {rl3=c5, rl2=c3, rl5=c4, rl4=c2, rl1=c1}, {rl3=c1, rl2=c4, rl5=c5, rl4=c3, rl1=c2}, {rl3=c3, rl2=c5, rl5=c4, rl4=c1, rl1=c2}, {rl3=c2, rl2=c5, rl5=c1, rl4=c4, rl1=c3}, {rl3=c4, rl2=c1, rl5=c5, rl4=c2, rl1=c3}, {rl3=c3, rl2=c1, rl5=c2, rl4=c5, rl1=c4}, {rl3=c5, rl2=c2, rl5=c1, rl4=c3, rl1=c4}, {rl3=c1, rl2=c3, rl5=c2, rl4=c4, rl1=c5}, {rl3=c4, rl2=c2, rl5=c3, rl4=c1, rl1=c5}]
+
+
+Problème 8reines.txt
+searchSol :
+10 noeuds ont été explorés
+{rl1=1, rl3=2, rl2=7, rl5=8, rl4=8, rl7=8, rl6=8, rl8=3}
+searchAllSol :
+Nb solutions : 92
+[{rl1=1, rl3=4, rl2=7, rl5=8, rl4=6, rl7=5, rl6=2, rl8=3}, {rl1=1, rl3=5, rl2=7, rl5=2, rl4=8, rl7=6, rl6=4, rl8=3}, {rl1=1, rl3=8, rl2=5, rl5=3, rl4=6, rl7=2, rl6=7, rl8=4}, {rl1=1, rl3=8, rl2=6, rl5=7, rl4=3, rl7=2, rl6=4, rl8=5}, {rl1=2, rl3=1, rl2=6, rl5=4, rl4=7, rl7=3, rl6=8, rl8=5}, {rl1=2, rl3=3, rl2=7, rl5=8, rl4=6, rl7=1, rl6=5, rl8=4}, {rl1=2, rl3=5, rl2=7, rl5=1, rl4=8, rl7=6, rl6=4, rl8=3}, {rl1=2, rl3=6, rl2=4, rl5=3, rl4=8, rl7=7, rl6=1, rl8=5}, {rl1=2, rl3=6, rl2=8, rl5=3, rl4=1, rl7=7, rl6=5, rl8=4}, {rl1=2, rl3=7, rl2=5, rl5=1, rl4=4, rl7=6, rl6=8, rl8=3}, {rl1=2, rl3=7, rl2=5, rl5=3, rl4=1, rl7=6, rl6=8, rl8=4}, {rl1=2, rl3=8, rl2=6, rl5=1, rl4=3, rl7=7, rl6=4, rl8=5}, {rl1=3, rl3=2, rl2=5, rl5=1, rl4=8, rl7=4, rl6=7, rl8=6}, {rl1=3, rl3=2, rl2=5, rl5=6, rl4=8, rl7=7, rl6=4, rl8=1}, {rl1=3, rl3=2, rl2=6, rl5=1, rl4=7, rl7=8, rl6=4, rl8=5}, {rl1=3, rl3=2, rl2=6, rl5=5, rl4=7, rl7=8, rl6=1, rl8=4}, {rl1=3, rl3=2, rl2=6, rl5=8, rl4=5, rl7=7, rl6=1, rl8=4}, {rl1=3, rl3=2, rl2=7, rl5=5, rl4=8, rl7=4, rl6=1, rl8=6}, {rl1=3, rl3=2, rl2=7, rl5=6, rl4=8, rl7=1, rl6=4, rl8=5}, {rl1=3, rl3=4, rl2=6, rl5=8, rl4=1, rl7=7, rl6=5, rl8=2}, {rl1=3, rl3=4, rl2=6, rl5=8, rl4=2, rl7=7, rl6=5, rl8=1}, {rl1=3, rl3=4, rl2=8, rl5=1, rl4=7, rl7=2, rl6=6, rl8=5}, {rl1=3, rl3=7, rl2=1, rl5=8, rl4=5, rl7=4, rl6=2, rl8=6}, {rl1=3, rl3=7, rl2=5, rl5=4, rl4=1, rl7=8, rl6=2, rl8=6}, {rl1=3, rl3=8, rl2=5, rl5=1, rl4=4, rl7=2, rl6=7, rl8=6}, {rl1=3, rl3=8, rl2=6, rl5=4, rl4=1, rl7=5, rl6=7, rl8=2}, {rl1=3, rl3=8, rl2=6, rl5=4, rl4=2, rl7=7, rl6=1, rl8=5}, {rl1=3, rl3=8, rl2=6, rl5=5, rl4=1, rl7=2, rl6=7, rl8=4}, {rl1=4, rl3=1, rl2=6, rl5=2, rl4=5, rl7=3, rl6=8, rl8=7}, {rl1=4, rl3=1, rl2=7, rl5=5, rl4=8, rl7=6, rl6=2, rl8=3}, {rl1=4, rl3=1, rl2=8, rl5=6, rl4=3, rl7=7, rl6=2, rl8=5}, {rl1=4, rl3=1, rl2=8, rl5=7, rl4=5, rl7=6, rl6=2, rl8=3}, {rl1=4, rl3=3, rl2=7, rl5=2, rl4=8, rl7=1, rl6=5, rl8=6}, {rl1=4, rl3=5, rl2=1, rl5=2, rl4=8, rl7=3, rl6=7, rl8=6}, {rl1=4, rl3=5, rl2=1, rl5=6, rl4=8, rl7=7, rl6=3, rl8=2}, {rl1=4, rl3=5, rl2=2, rl5=6, rl4=8, rl7=3, rl6=1, rl8=7}, {rl1=4, rl3=5, rl2=7, rl5=1, rl4=3, rl7=8, rl6=6, rl8=2}, {rl1=4, rl3=5, rl2=7, rl5=6, rl4=2, rl7=3, rl6=1, rl8=8}, {rl1=4, rl3=5, rl2=8, rl5=1, rl4=3, rl7=2, rl6=7, rl8=6}, {rl1=4, rl3=7, rl2=2, rl5=1, rl4=5, rl7=6, rl6=8, rl8=3}, {rl1=4, rl3=7, rl2=2, rl5=6, rl4=3, rl7=1, rl6=8, rl8=5}, {rl1=4, rl3=7, rl2=2, rl5=6, rl4=3, rl7=5, rl6=8, rl8=1}, {rl1=4, rl3=8, rl2=2, rl5=1, rl4=6, rl7=5, rl6=3, rl8=7}, {rl1=4, rl3=8, rl2=2, rl5=7, rl4=5, rl7=3, rl6=1, rl8=6}, {rl1=4, rl3=8, rl2=6, rl5=1, rl4=3, rl7=5, rl6=7, rl8=2}, {rl1=4, rl3=8, rl2=6, rl5=7, rl4=2, rl7=3, rl6=1, rl8=5}, {rl1=5, rl3=1, rl2=3, rl5=2, rl4=7, rl7=6, rl6=8, rl8=4}, {rl1=5, rl3=1, rl2=3, rl5=8, rl4=6, rl7=4, rl6=2, rl8=7}, {rl1=5, rl3=1, rl2=7, rl5=2, rl4=4, rl7=6, rl6=8, rl8=3}, {rl1=5, rl3=1, rl2=7, rl5=8, rl4=3, rl7=4, rl6=6, rl8=2}, {rl1=5, rl3=2, rl2=7, rl5=3, rl4=6, rl7=4, rl6=1, rl8=8}, {rl1=5, rl3=2, rl2=7, rl5=3, rl4=6, rl7=8, rl6=1, rl8=4}, {rl1=5, rl3=2, rl2=7, rl5=8, rl4=4, rl7=3, rl6=1, rl8=6}, {rl1=5, rl3=4, rl2=1, rl5=8, rl4=6, rl7=7, rl6=2, rl8=3}, {rl1=5, rl3=4, rl2=2, rl5=3, rl4=7, rl7=6, rl6=8, rl8=1}, {rl1=5, rl3=4, rl2=2, rl5=8, rl4=6, rl7=1, rl6=3, rl8=7}, {rl1=5, rl3=4, rl2=7, rl5=3, rl4=1, rl7=6, rl6=8, rl8=2}, {rl1=5, rl3=4, rl2=8, rl5=3, rl4=1, rl7=2, rl6=6, rl8=7}, {rl1=5, rl3=4, rl2=8, rl5=7, rl4=1, rl7=6, rl6=2, rl8=3}, {rl1=5, rl3=6, rl2=2, rl5=7, rl4=1, rl7=8, rl6=4, rl8=3}, {rl1=5, rl3=8, rl2=1, rl5=2, rl4=4, rl7=3, rl6=7, rl8=6}, {rl1=5, rl3=8, rl2=1, rl5=3, rl4=6, rl7=2, rl6=7, rl8=4}, {rl1=5, rl3=8, rl2=2, rl5=4, rl4=1, rl7=3, rl6=7, rl8=6}, {rl1=5, rl3=8, rl2=3, rl5=7, rl4=4, rl7=6, rl6=1, rl8=2}, {rl1=6, rl3=1, rl2=3, rl5=4, rl4=8, rl7=7, rl6=2, rl8=5}, {rl1=6, rl3=1, rl2=3, rl5=5, rl4=7, rl7=2, rl6=8, rl8=4}, {rl1=6, rl3=1, rl2=3, rl5=5, rl4=8, rl7=4, rl6=2, rl8=7}, {rl1=6, rl3=1, rl2=4, rl5=8, rl4=5, rl7=7, rl6=2, rl8=3}, {rl1=6, rl3=2, rl2=4, rl5=5, rl4=8, rl7=1, rl6=7, rl8=3}, {rl1=6, rl3=2, rl2=8, rl5=1, rl4=4, rl7=5, rl6=7, rl8=3}, {rl1=6, rl3=5, rl2=1, rl5=8, rl4=2, rl7=7, rl6=3, rl8=4}, {rl1=6, rl3=5, rl2=3, rl5=1, rl4=7, rl7=2, rl6=4, rl8=8}, {rl1=6, rl3=5, rl2=3, rl5=1, rl4=8, rl7=2, rl6=4, rl8=7}, {rl1=6, rl3=7, rl2=2, rl5=3, rl4=1, rl7=8, rl6=5, rl8=4}, {rl1=6, rl3=7, rl2=2, rl5=4, rl4=1, rl7=5, rl6=8, rl8=3}, {rl1=6, rl3=7, rl2=3, rl5=1, rl4=4, rl7=2, rl6=8, rl8=5}, {rl1=6, rl3=7, rl2=3, rl5=4, rl4=2, rl7=1, rl6=8, rl8=5}, {rl1=6, rl3=7, rl2=3, rl5=8, rl4=2, rl7=1, rl6=5, rl8=4}, {rl1=6, rl3=7, rl2=4, rl5=3, rl4=1, rl7=2, rl6=5, rl8=8}, {rl1=6, rl3=7, rl2=4, rl5=8, rl4=1, rl7=5, rl6=2, rl8=3}, {rl1=7, rl3=1, rl2=3, rl5=8, rl4=6, rl7=2, rl6=5, rl8=4}, {rl1=7, rl3=2, rl2=4, rl5=6, rl4=8, rl7=3, rl6=1, rl8=5}, {rl1=7, rl3=2, rl2=4, rl5=8, rl4=5, rl7=3, rl6=1, rl8=6}, {rl1=7, rl3=3, rl2=1, rl5=6, rl4=8, rl7=2, rl6=4, rl8=5}, {rl1=7, rl3=3, rl2=5, rl5=6, rl4=1, rl7=2, rl6=8, rl8=4}, {rl1=7, rl3=4, rl2=2, rl5=8, rl4=1, rl7=3, rl6=5, rl8=6}, {rl1=7, rl3=6, rl2=2, rl5=1, rl4=3, rl7=8, rl6=4, rl8=5}, {rl1=7, rl3=8, rl2=3, rl5=5, rl4=2, rl7=6, rl6=1, rl8=4}, {rl1=8, rl3=1, rl2=3, rl5=2, rl4=6, rl7=7, rl6=5, rl8=4}, {rl1=8, rl3=1, rl2=4, rl5=6, rl4=3, rl7=7, rl6=2, rl8=5}, {rl1=8, rl3=4, rl2=2, rl5=7, rl4=1, rl7=3, rl6=5, rl8=6}, {rl1=8, rl3=5, rl2=2, rl5=1, rl4=3, rl7=4, rl6=7, rl8=6}]
+
+Problème colore.txt
+searchSol :
+16 noeuds ont été explorés
+{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=R, V=B, V2=R, T2=R}
+searchAllSol :
+Nb solutions : 36
+[{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=R, V=B, V2=R, T2=R}, {Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=G, V=B, V2=R, T2=G}, {Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=B, V=B, V2=R, T2=B}, {Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=R, V=B, V2=R, T2=R}, {Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=G, V=B, V2=R, T2=G}, {Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=B, V=B, V2=R, T2=B}, {Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=R, V=G, V2=R, T2=R}, {Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=G, V=G, V2=R, T2=G}, {Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=B, V=G, V2=R, T2=B}, {Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=R, V=G, V2=R, T2=R}, {Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=G, V=G, V2=R, T2=G}, {Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=B, V=G, V2=R, T2=B}, {Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=R, V=B, V2=G, T2=R}, {Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=G, V=B, V2=G, T2=G}, {Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=B, V=B, V2=G, T2=B}, {Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=R, V=B, V2=G, T2=R}, {Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=G, V=B, V2=G, T2=G}, {Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=B, V=B, V2=G, T2=B}, {Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=R, V=R, V2=G, T2=R}, {Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=G, V=R, V2=G, T2=G}, {Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=B, V=R, V2=G, T2=B}, {Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=R, V=R, V2=G, T2=R}, {Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=G, V=R, V2=G, T2=G}, {Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=B, V=R, V2=G, T2=B}, {Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=R, V=G, V2=B, T2=R}, {Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=G, V=G, V2=B, T2=G}, {Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=B, V=G, V2=B, T2=B}, {Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=R, V=G, V2=B, T2=R}, {Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=G, V=G, V2=B, T2=G}, {Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=B, V=G, V2=B, T2=B}, {Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=R, V=R, V2=B, T2=R}, {Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=G, V=R, V2=B, T2=G}, {Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=B, V=R, V2=B, T2=B}, {Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=R, V=R, V2=B, T2=R}, {Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=G, V=R, V2=B, T2=G}, {Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=B, V=R, V2=B, T2=B}]
+
+
+Problème cryptoMoney.txt
+searchSol :
+Pas de solution ! 
+null
+searchAllSol :
+Nb solutions : 1
+[{R=8, S=9, D=7, E=5, Y=2, M=1, T1=1, N=6, T2=1, O=0, T3=0}]
+
+j'ai codé les contraintes en intension suivantes : 
+- Contraintes d'égalités
+- Contraintes de différences
+- Contrainte nextto pour l'exemple du zebre qui vérifie si 2 variables doivent être à côtés
+- Contrainte d'infériorité
+
+
+Problème coloration
+searchSol :
+9 noeuds ont été explorés
+{WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}
+searchAllSol :
+Nb solutions : 18
+[{WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Green, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Green, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Blue, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Blue, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Green, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Green, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Blue, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Blue, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Red, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Green, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Green, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Blue, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Blue, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}]
+
+Problème zebre
+searchSol :
+27 noeuds ont été explorés
+{yellow=1, fox=4, red=5, tea=5, japanese=5, ivory=5, english=5, ukranian=5, zebra=5, spanish=5, green=5, norvegian=1, c=5, milk=3, k=5, l=5, juice=5, water=5, o=5, p=5, horse=5, snails=5, blue=5, coffee=5, dog=5}
+searchAllSol :
+Nb solutions : 0
+[]
+
+J'ai réalisé plusieurs versions de colorations avec de tester mes contraintes d'egalités et différences , voici leur retour : 
+
+Celle ci revient au problème de coloration mais en utilisant des contraintes en intention de différence :
+
+Problème colorationdif
+searchSol :
+9 noeuds ont été explorés
+{WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}
+searchAllSol :
+Nb solutions : 18
+[{WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Red, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Green, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Green, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Blue, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Blue, Queensland=Red}, {WesternAustralia=Red, Victoria=Red, Tasmania=Blue, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Green, Queensland=Red}, {WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Green, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Green, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Blue, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Blue, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Blue, NorthernTerritory=Blue, NewSouthWales=Blue, SouthAustralia=Red, Queensland=Green}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Red, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Green, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Green, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Blue, NorthernTerritory=Red, NewSouthWales=Red, SouthAustralia=Green, Queensland=Blue}, {WesternAustralia=Blue, Victoria=Blue, Tasmania=Blue, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Red, Queensland=Blue}]
+
+Ceci est un problème de coloration ou je force le domaine de ma première variable a être verte et je demande à ce que toutes les autres régions soient vertes sauf la tasmanie , cela me permettait de tester l'egalité : 
+
+Problème colorationeq
+searchSol :
+9 noeuds ont été explorés
+{WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Green, Queensland=Green}
+searchAllSol :
+Nb solutions : 3
+[{WesternAustralia=Green, Victoria=Green, Tasmania=Red, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Green, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Green, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Green, Queensland=Green}, {WesternAustralia=Green, Victoria=Green, Tasmania=Blue, NorthernTerritory=Green, NewSouthWales=Green, SouthAustralia=Green, Queensland=Green}]
